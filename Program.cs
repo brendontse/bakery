@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace Bakery
 {
@@ -17,6 +19,8 @@ namespace Bakery
             Console.WriteLine("---------------------------------------------------------");
             Console.WriteLine("Please enter the number of patries you'd like to order today:");
             int UserPastryInput = int.Parse(Console.ReadLine());
+            Console.WriteLine("---------------------------------------------------------");
+
         }
     }
 }

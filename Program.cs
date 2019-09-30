@@ -11,8 +11,7 @@ namespace Bakery
             Console.WriteLine("We have a couple specials going on at the moment:");
             Console.WriteLine("Buy 2 any loaves of bread, get 1 free!");
             Console.WriteLine("Buy any pastry for $2 or 3 for $5!");
-
-
+            Console.WriteLine("---------------------------------------------------------");
         }
     }
 }

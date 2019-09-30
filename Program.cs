@@ -12,6 +12,11 @@ namespace Bakery
             Console.WriteLine("Buy 2 any loaves of bread, get 1 free!");
             Console.WriteLine("Buy any pastry for $2 or 3 for $5!");
             Console.WriteLine("---------------------------------------------------------");
+            Console.WriteLine("Please enter the number of loaves of bread you'd like to order today:");            
+            int UserBreadInput = int.Parse(Console.ReadLine());
+            Console.WriteLine("---------------------------------------------------------");
+            Console.WriteLine("Please enter the number of patries you'd like to order today:");
+            int UserPastryInput = int.Parse(Console.ReadLine());
         }
     }
 }

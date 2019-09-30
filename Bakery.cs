@@ -21,4 +21,25 @@ namespace Bakery.Deals
             }       
         }
     }
+    
+    class Pastry
+    {
+        public int PastryNumber { get; set; }
+        public int PastryCost { get; set; }
+        public Pastry(int pastryNumber, int pastryCost)
+        {
+            PastryNumber = pastryNumber;
+            PastryCost = pastryCost;
+        }
+
+        public void PastryDeal(int pastryNumber)
+        {
+            PastryCost = pastryNumber * 2;
+            
+            if (pastryNumber >= 3)
+            {
+                PastryCost -= pastryNumber / 3;
+            }        
+        }
+    }
 }

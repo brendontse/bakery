@@ -11,6 +11,14 @@ namespace Bakery.Deals
             BreadLoaves = breadLoaves;
             BreadCost = breadCost;
         }
-        
+        public void BreadDeal(int breadLoaves)
+        {
+            BreadCost = breadLoaves * 5;
+            
+            if (breadLoaves >= 2)
+            {
+                breadLoaves += breadLoaves / 2;
+            }       
+        }
     }
 }
